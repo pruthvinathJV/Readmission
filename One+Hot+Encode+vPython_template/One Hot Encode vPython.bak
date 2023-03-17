@@ -1,0 +1,714 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="JupyterCode">
+        <Position x="270" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <DefaultVenv>1</DefaultVenv>
+          <vEnvName>designerbasetools_venv</vEnvName>
+          <JupyterGuidDir>206aa3f0faaca34950eac12935fc94d8</JupyterGuidDir>
+          <Notebook><![CDATA[{"cells":[{"cell_type":"markdown","metadata":{"ayx":{"cell_class":"text_cell","cell_css":"border: 3px solid #357; margin: 4px; background: #fbffff","cell_type":"markdown","contents_keyword":"Alteryx.help()","first_line":"Run `Alteryx.help()` for info about useful functions.","label":"info"}},"source":["Run `Alteryx.help()` for info about useful functions.  \n","i.e., `Alteryx.read(\"#1\")`, `Alteryx.write(df,1)`, `Alteryx.getWorkflowConstant(\"Engine.WorkflowDirectory\")`"]},{"cell_type":"code","execution_count":1,"metadata":{"ayx":{"cell_class":"code_cell","cell_css":"border: 1px solid #58a; margin: 2px;","cell_type":"code","contents_keyword":"installPackages","first_line":"# List all non-standard packages to be imported by your","label":"deps"}},"outputs":[],"source":["# List all non-standard packages to be imported by your \n","# script here (only missing packages will be installed)\n","from ayx import Package\n","#Package.installPackages(['pandas','numpy'])"]},{"cell_type":"code","execution_count":2,"metadata":{},"outputs":[],"source":["from ayx import Alteryx\n","\n"]},{"cell_type":"code","execution_count":3,"metadata":{},"outputs":[],"source":["df = Alteryx.read(\"#1\")"]},{"cell_type":"code","execution_count":4,"metadata":{},"outputs":[],"source":["import pandas as pd"]},{"cell_type":"code","execution_count":5,"metadata":{},"outputs":[],"source":["df_dummy = pd.get_dummies(df)"]},{"cell_type":"code","execution_count":6,"metadata":{},"outputs":[],"source":["Alteryx.write(df_dummy, 2)"]}],"metadata":{"kernelspec":{"display_name":"designerbasetools_venv","language":"python","name":"designerbasetools_venv"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.5"}},"nbformat":4,"nbformat_minor":2}]]></Notebook>
+          <Port>63622</Port>
+          <WorkflowName>\\mac\home\desktop\uic\sem 2\ids 594\assignment 3\one+hot+encode+vpython_template\one hot encode vpython.yxmc</WorkflowName>
+          <specialCellMetadata>[{"label":"info","contents_keyword":"Alteryx.help()","cell_css":"border: 3px solid #357; margin: 4px; background: #fbffff","first_line":"Run `Alteryx.help()` for info about useful functions.","cell_type":"markdown","cell_class":"text_cell"},{"label":"deps","contents_keyword":"installPackages","cell_css":"border: 1px solid #58a; margin: 2px;","first_line":"# List all non-standard packages to be imported by your","cell_type":"code","cell_class":"code_cell"}]</specialCellMetadata>
+          <JupyterProduction>false</JupyterProduction>
+          <productionModeScript />
+          <JupyterGuidCopy />
+          <LastExecutedByEngineVersion>2022.1.1.30961</LastExecutedByEngineVersion>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxJupyterPluginEngine.dll" EngineDllEntryPoint="AlteryxJupyter" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="race" selected="True" type="V_WString" size="254" />
+            <SelectField field="gender" selected="True" type="Int32" size="4" />
+            <SelectField field="age" selected="True" type="V_WString" size="254" />
+            <SelectField field="admission_type_id" selected="True" type="V_WString" size="254" />
+            <SelectField field="discharge_disposition_id" selected="True" type="V_WString" size="254" />
+            <SelectField field="admission_source_id" selected="True" type="V_WString" size="254" />
+            <SelectField field="time_in_hospital" selected="True" type="Int32" size="4" />
+            <SelectField field="num_lab_procedures" selected="True" type="Int32" size="4" />
+            <SelectField field="num_procedures" selected="True" type="Int32" size="4" />
+            <SelectField field="num_medications" selected="True" type="Int32" size="4" />
+            <SelectField field="number_diagnoses" selected="True" type="Int32" size="4" />
+            <SelectField field="max_glu_serum" selected="True" type="V_WString" size="254" />
+            <SelectField field="A1Cresult" selected="True" type="V_WString" size="254" />
+            <SelectField field="metformin" selected="True" type="Int32" size="4" />
+            <SelectField field="repaglinide" selected="True" type="Int32" size="4" />
+            <SelectField field="nateglinide" selected="True" type="Int32" size="4" />
+            <SelectField field="chlorpropamide" selected="True" type="Int32" size="4" />
+            <SelectField field="glimepiride" selected="True" type="Int32" size="4" />
+            <SelectField field="acetohexamide" selected="True" type="Int32" size="4" />
+            <SelectField field="glipizide" selected="True" type="Int32" size="4" />
+            <SelectField field="glyburide" selected="True" type="Int32" size="4" />
+            <SelectField field="tolbutamide" selected="True" type="Int32" size="4" />
+            <SelectField field="pioglitazone" selected="True" type="Int32" size="4" />
+            <SelectField field="rosiglitazone" selected="True" type="Int32" size="4" />
+            <SelectField field="acarbose" selected="True" type="Int32" size="4" />
+            <SelectField field="miglitol" selected="True" type="Int32" size="4" />
+            <SelectField field="troglitazone" selected="True" type="Int32" size="4" />
+            <SelectField field="tolazamide" selected="True" type="Int32" size="4" />
+            <SelectField field="examide" selected="True" type="Int32" size="4" />
+            <SelectField field="citoglipton" selected="True" type="Int32" size="4" />
+            <SelectField field="insulin" selected="True" type="Int32" size="4" />
+            <SelectField field="glyburide-metformin" selected="True" type="Int32" size="4" />
+            <SelectField field="glipizide-metformin" selected="True" type="Int32" size="4" />
+            <SelectField field="glimepiride-pioglitazone" selected="True" type="Int32" size="4" />
+            <SelectField field="metformin-rosiglitazone" selected="True" type="Int32" size="4" />
+            <SelectField field="metformin-pioglitazone" selected="True" type="Int32" size="4" />
+            <SelectField field="change" selected="True" type="Int32" size="4" />
+            <SelectField field="diabetesMed" selected="True" type="Int32" size="4" />
+            <SelectField field="readmitted" selected="True" type="Int32" size="4" />
+            <SelectField field="service_utlization" selected="True" type="Int32" size="4" />
+            <SelectField field="Sum_drug_change" selected="True" type="Int32" size="4" />
+            <SelectField field="level1_diag1" selected="True" type="V_WString" size="254" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="race" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_WString" />
+            <Field name="gender" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="age" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_WString" />
+            <Field name="admission_type_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_WString" />
+            <Field name="discharge_disposition_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_WString" />
+            <Field name="admission_source_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_WString" />
+            <Field name="time_in_hospital" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="num_lab_procedures" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="num_procedures" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="num_medications" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="number_diagnoses" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="max_glu_serum" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_WString" />
+            <Field name="A1Cresult" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_WString" />
+            <Field name="metformin" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="repaglinide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="nateglinide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="chlorpropamide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="glimepiride" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="acetohexamide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="glipizide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="glyburide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="tolbutamide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="pioglitazone" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="rosiglitazone" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="acarbose" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="miglitol" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="troglitazone" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="tolazamide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="examide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="citoglipton" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="insulin" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="glyburide-metformin" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="glipizide-metformin" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="glimepiride-pioglitazone" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="metformin-rosiglitazone" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="metformin-pioglitazone" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="change" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="diabetesMed" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="readmitted" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="service_utlization" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="Sum_drug_change" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="level1_diag1" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="True" />
+          <Name>Input Data</Name>
+          <Abbrev>I</Abbrev>
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <FileInput>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+          </FileInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Prep2.csv</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="race" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="gender" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="age" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="admission_type_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="discharge_disposition_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="admission_source_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="time_in_hospital" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="num_lab_procedures" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="num_procedures" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="num_medications" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="number_diagnoses" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="max_glu_serum" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="A1Cresult" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="metformin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="repaglinide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="nateglinide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="chlorpropamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glimepiride" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="acetohexamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glipizide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glyburide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="tolbutamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="pioglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="rosiglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="acarbose" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="miglitol" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="troglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="tolazamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="examide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="citoglipton" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="insulin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glyburide-metformin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glipizide-metformin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glimepiride-pioglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="metformin-rosiglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="metformin-pioglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="change" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="diabetesMed" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="readmitted" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="service_utlization" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="Sum_drug_change" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="level1_diag1" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.ListBox">
+        <Position x="150" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Select your categorical value for one hot encoding</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="150" y="150" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Select with multi-select ListBox</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="378" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="gender" source="PythonTool:" type="Int32" />
+            <Field name="time_in_hospital" source="PythonTool:" type="Int32" />
+            <Field name="num_lab_procedures" source="PythonTool:" type="Int32" />
+            <Field name="num_procedures" source="PythonTool:" type="Int32" />
+            <Field name="num_medications" source="PythonTool:" type="Int32" />
+            <Field name="number_diagnoses" source="PythonTool:" type="Int32" />
+            <Field name="metformin" source="PythonTool:" type="Int32" />
+            <Field name="repaglinide" source="PythonTool:" type="Int32" />
+            <Field name="nateglinide" source="PythonTool:" type="Int32" />
+            <Field name="chlorpropamide" source="PythonTool:" type="Int32" />
+            <Field name="glimepiride" source="PythonTool:" type="Int32" />
+            <Field name="acetohexamide" source="PythonTool:" type="Int32" />
+            <Field name="glipizide" source="PythonTool:" type="Int32" />
+            <Field name="glyburide" source="PythonTool:" type="Int32" />
+            <Field name="tolbutamide" source="PythonTool:" type="Int32" />
+            <Field name="pioglitazone" source="PythonTool:" type="Int32" />
+            <Field name="rosiglitazone" source="PythonTool:" type="Int32" />
+            <Field name="acarbose" source="PythonTool:" type="Int32" />
+            <Field name="miglitol" source="PythonTool:" type="Int32" />
+            <Field name="troglitazone" source="PythonTool:" type="Int32" />
+            <Field name="tolazamide" source="PythonTool:" type="Int32" />
+            <Field name="examide" source="PythonTool:" type="Int32" />
+            <Field name="citoglipton" source="PythonTool:" type="Int32" />
+            <Field name="insulin" source="PythonTool:" type="Int32" />
+            <Field name="glyburide-metformin" source="PythonTool:" type="Int32" />
+            <Field name="glipizide-metformin" source="PythonTool:" type="Int32" />
+            <Field name="glimepiride-pioglitazone" source="PythonTool:" type="Int32" />
+            <Field name="metformin-rosiglitazone" source="PythonTool:" type="Int32" />
+            <Field name="metformin-pioglitazone" source="PythonTool:" type="Int32" />
+            <Field name="change" source="PythonTool:" type="Int32" />
+            <Field name="diabetesMed" source="PythonTool:" type="Int32" />
+            <Field name="readmitted" source="PythonTool:" type="Int32" />
+            <Field name="service_utlization" source="PythonTool:" type="Int32" />
+            <Field name="Sum_drug_change" source="PythonTool:" type="Int32" />
+            <Field name="race_AfricanAmerican" source="PythonTool:" type="Bool" />
+            <Field name="race_Asian" source="PythonTool:" type="Bool" />
+            <Field name="race_Caucasian" source="PythonTool:" type="Bool" />
+            <Field name="race_Hispanic" source="PythonTool:" type="Bool" />
+            <Field name="race_Other" source="PythonTool:" type="Bool" />
+            <Field name="age_50-70" source="PythonTool:" type="Bool" />
+            <Field name="age_70+" source="PythonTool:" type="Bool" />
+            <Field name="age_&lt;50" source="PythonTool:" type="Bool" />
+            <Field name="admission_type_id_Elective" source="PythonTool:" type="Bool" />
+            <Field name="admission_type_id_Emergency" source="PythonTool:" type="Bool" />
+            <Field name="admission_type_id_Other" source="PythonTool:" type="Bool" />
+            <Field name="admission_type_id_Unknown" source="PythonTool:" type="Bool" />
+            <Field name="discharge_disposition_id_Another Facility" source="PythonTool:" type="Bool" />
+            <Field name="discharge_disposition_id_Home" source="PythonTool:" type="Bool" />
+            <Field name="discharge_disposition_id_Nursing Home / Hospice" source="PythonTool:" type="Bool" />
+            <Field name="discharge_disposition_id_Other" source="PythonTool:" type="Bool" />
+            <Field name="discharge_disposition_id_Unknown" source="PythonTool:" type="Bool" />
+            <Field name="admission_source_id_0" source="PythonTool:" type="Bool" />
+            <Field name="admission_source_id_ER" source="PythonTool:" type="Bool" />
+            <Field name="admission_source_id_Other" source="PythonTool:" type="Bool" />
+            <Field name="admission_source_id_Referral" source="PythonTool:" type="Bool" />
+            <Field name="admission_source_id_Transfer" source="PythonTool:" type="Bool" />
+            <Field name="admission_source_id_Unknown" source="PythonTool:" type="Bool" />
+            <Field name="max_glu_serum_&gt;200" source="PythonTool:" type="Bool" />
+            <Field name="max_glu_serum_&gt;300" source="PythonTool:" type="Bool" />
+            <Field name="max_glu_serum_None" source="PythonTool:" type="Bool" />
+            <Field name="max_glu_serum_Norm" source="PythonTool:" type="Bool" />
+            <Field name="A1Cresult_Diab" source="PythonTool:" type="Bool" />
+            <Field name="A1Cresult_None" source="PythonTool:" type="Bool" />
+            <Field name="A1Cresult_Normal" source="PythonTool:" type="Bool" />
+            <Field name="A1Cresult_Pre-diab" source="PythonTool:" type="Bool" />
+            <Field name="level1_diag1_Circulatory" source="PythonTool:" type="Bool" />
+            <Field name="level1_diag1_Diabetes" source="PythonTool:" type="Bool" />
+            <Field name="level1_diag1_Digestive" source="PythonTool:" type="Bool" />
+            <Field name="level1_diag1_Genitourina" source="PythonTool:" type="Bool" />
+            <Field name="level1_diag1_Injury" source="PythonTool:" type="Bool" />
+            <Field name="level1_diag1_Musculoskel" source="PythonTool:" type="Bool" />
+            <Field name="level1_diag1_Neoplasms" source="PythonTool:" type="Bool" />
+            <Field name="level1_diag1_Others" source="PythonTool:" type="Bool" />
+            <Field name="level1_diag1_Respiratory" source="PythonTool:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="486" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Bool</FieldType>
+          <Fields orderChanged="False">
+            <Field name="race_AfricanAmerican" />
+            <Field name="race_Asian" />
+            <Field name="race_Caucasian" />
+            <Field name="race_Hispanic" />
+            <Field name="race_Other" />
+            <Field name="age_50-70" />
+            <Field name="age_70+" />
+            <Field name="age_&lt;50" />
+            <Field name="admission_type_id_Elective" />
+            <Field name="admission_type_id_Emergency" />
+            <Field name="admission_type_id_Other" />
+            <Field name="admission_type_id_Unknown" />
+            <Field name="discharge_disposition_id_Another Facility" />
+            <Field name="discharge_disposition_id_Home" />
+            <Field name="discharge_disposition_id_Nursing Home / Hospice" />
+            <Field name="discharge_disposition_id_Other" />
+            <Field name="discharge_disposition_id_Unknown" />
+            <Field name="admission_source_id_0" />
+            <Field name="admission_source_id_ER" />
+            <Field name="admission_source_id_Other" />
+            <Field name="admission_source_id_Referral" />
+            <Field name="admission_source_id_Transfer" />
+            <Field name="admission_source_id_Unknown" />
+            <Field name="max_glu_serum_&gt;200" />
+            <Field name="max_glu_serum_&gt;300" />
+            <Field name="max_glu_serum_None" />
+            <Field name="max_glu_serum_Norm" />
+            <Field name="A1Cresult_Diab" />
+            <Field name="A1Cresult_None" />
+            <Field name="A1Cresult_Normal" />
+            <Field name="A1Cresult_Pre-diab" />
+            <Field name="level1_diag1_Circulatory" />
+            <Field name="level1_diag1_Diabetes" />
+            <Field name="level1_diag1_Digestive" />
+            <Field name="level1_diag1_Genitourina" />
+            <Field name="level1_diag1_Injury" />
+            <Field name="level1_diag1_Musculoskel" />
+            <Field name="level1_diag1_Neoplasms" />
+            <Field name="level1_diag1_Others" />
+            <Field name="level1_diag1_Respiratory" />
+            <Field name="*Unknown" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>IIF ([_CurrentField_], 1, 0)</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IIF ([_CurrentField_], 1, 0)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="gender" source="PythonTool:" type="Int32" />
+            <Field name="time_in_hospital" source="PythonTool:" type="Int32" />
+            <Field name="num_lab_procedures" source="PythonTool:" type="Int32" />
+            <Field name="num_procedures" source="PythonTool:" type="Int32" />
+            <Field name="num_medications" source="PythonTool:" type="Int32" />
+            <Field name="number_diagnoses" source="PythonTool:" type="Int32" />
+            <Field name="metformin" source="PythonTool:" type="Int32" />
+            <Field name="repaglinide" source="PythonTool:" type="Int32" />
+            <Field name="nateglinide" source="PythonTool:" type="Int32" />
+            <Field name="chlorpropamide" source="PythonTool:" type="Int32" />
+            <Field name="glimepiride" source="PythonTool:" type="Int32" />
+            <Field name="acetohexamide" source="PythonTool:" type="Int32" />
+            <Field name="glipizide" source="PythonTool:" type="Int32" />
+            <Field name="glyburide" source="PythonTool:" type="Int32" />
+            <Field name="tolbutamide" source="PythonTool:" type="Int32" />
+            <Field name="pioglitazone" source="PythonTool:" type="Int32" />
+            <Field name="rosiglitazone" source="PythonTool:" type="Int32" />
+            <Field name="acarbose" source="PythonTool:" type="Int32" />
+            <Field name="miglitol" source="PythonTool:" type="Int32" />
+            <Field name="troglitazone" source="PythonTool:" type="Int32" />
+            <Field name="tolazamide" source="PythonTool:" type="Int32" />
+            <Field name="examide" source="PythonTool:" type="Int32" />
+            <Field name="citoglipton" source="PythonTool:" type="Int32" />
+            <Field name="insulin" source="PythonTool:" type="Int32" />
+            <Field name="glyburide-metformin" source="PythonTool:" type="Int32" />
+            <Field name="glipizide-metformin" source="PythonTool:" type="Int32" />
+            <Field name="glimepiride-pioglitazone" source="PythonTool:" type="Int32" />
+            <Field name="metformin-rosiglitazone" source="PythonTool:" type="Int32" />
+            <Field name="metformin-pioglitazone" source="PythonTool:" type="Int32" />
+            <Field name="change" source="PythonTool:" type="Int32" />
+            <Field name="diabetesMed" source="PythonTool:" type="Int32" />
+            <Field name="readmitted" source="PythonTool:" type="Int32" />
+            <Field name="service_utlization" source="PythonTool:" type="Int32" />
+            <Field name="Sum_drug_change" source="PythonTool:" type="Int32" />
+            <Field name="race_AfricanAmerican" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="race_Asian" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="race_Caucasian" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="race_Hispanic" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="race_Other" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="age_50-70" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="age_70+" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="age_&lt;50" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="admission_type_id_Elective" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="admission_type_id_Emergency" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="admission_type_id_Other" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="admission_type_id_Unknown" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="discharge_disposition_id_Another Facility" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="discharge_disposition_id_Home" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="discharge_disposition_id_Nursing Home / Hospice" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="discharge_disposition_id_Other" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="discharge_disposition_id_Unknown" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="admission_source_id_0" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="admission_source_id_ER" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="admission_source_id_Other" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="admission_source_id_Referral" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="admission_source_id_Transfer" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="admission_source_id_Unknown" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="max_glu_serum_&gt;200" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="max_glu_serum_&gt;300" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="max_glu_serum_None" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="max_glu_serum_Norm" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="A1Cresult_Diab" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="A1Cresult_None" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="A1Cresult_Normal" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="A1Cresult_Pre-diab" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="level1_diag1_Circulatory" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="level1_diag1_Diabetes" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="level1_diag1_Digestive" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="level1_diag1_Genitourina" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="level1_diag1_Injury" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="level1_diag1_Musculoskel" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="level1_diag1_Neoplasms" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="level1_diag1_Others" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+            <Field name="level1_diag1_Respiratory" source="Formula: IIF ([_CurrentField_], 1, 0)" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="582" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>OneHot.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRUTHV~1\AppData\Local\Temp\Engine_1188_8e8371e6b092416c873d9fb841cd68d7_\Engine_10380_2f45d5df592a414abfc989ea5fd9bfbd_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="26" Connection="Output2" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="33" Connection="Action" />
+      <Destination ToolID="28" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="31" Connection="Question" />
+      <Destination ToolID="32" Connection="Question Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="32" Connection="Question" />
+      <Destination ToolID="33" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>List Box (32)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name>One Hot Encode vPython</Name>
+      <Description>One Hot Encoding in Python</Description>
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName>Preparation</CategoryName>
+      <SearchTags>One Hot Encoding
+One Hot Encode</SearchTags>
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1644d83a-05e8-422f-abd4-923851844376" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="1644d83a-05e8-422f-abd4-923851844376" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateSelect</Type>
+              <Description />
+              <ToolId value="33" />
+              <Variable />
+              <SelectTool value="-1" />
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (8)</Name>
+          <ToolId value="8" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (31)</Description>
+              <Name>Macro Input (31)</Name>
+              <ToolId value="31" />
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Select your categorical value for one hot encoding</Description>
+              <Name>List Box (32)</Name>
+              <ToolId value="32" />
+              <Multiple value="True" />
+              <Multiple_Custom value="False" />
+              <Multiple_Default value="False" />
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="31" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>String,WString,V_String,V_WString</MacroField_FilterTypes>
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="31" Selected="True" />
+        <Tool ToolId="36" Selected="True" />
+        <Tool ToolId="37" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,588 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>OneHot.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="gender" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="time_in_hospital" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="num_lab_procedures" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="num_procedures" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="num_medications" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="number_diagnoses" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="metformin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="repaglinide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="nateglinide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="chlorpropamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="glimepiride" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="acetohexamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="glipizide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="glyburide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="tolbutamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="pioglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="rosiglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="acarbose" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="miglitol" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="troglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="tolazamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="examide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="citoglipton" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="insulin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="glyburide-metformin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="glipizide-metformin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="glimepiride-pioglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="metformin-rosiglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="metformin-pioglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="change" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="diabetesMed" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="readmitted" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="service_utlization" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="Sum_drug_change" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="race_AfricanAmerican" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="race_Asian" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="race_Caucasian" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="race_Hispanic" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="race_Other" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="age_50-70" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="age_70+" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="age_&lt;50" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="admission_type_id_Elective" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="admission_type_id_Emergency" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="admission_type_id_Other" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="admission_type_id_Unknown" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="discharge_disposition_id_Another Facility" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="discharge_disposition_id_Home" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="discharge_disposition_id_Nursing Home / Hospice" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="discharge_disposition_id_Other" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="discharge_disposition_id_Unknown" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="admission_source_id_0" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="admission_source_id_ER" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="admission_source_id_Other" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="admission_source_id_Referral" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="admission_source_id_Transfer" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="admission_source_id_Unknown" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="max_glu_serum_&gt;200" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="max_glu_serum_&gt;300" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="max_glu_serum_None" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="max_glu_serum_Norm" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="A1Cresult_Diab" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="A1Cresult_None" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="A1Cresult_Normal" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="A1Cresult_Pre-diab" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="level1_diag1_Circulatory" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="level1_diag1_Diabetes" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="level1_diag1_Digestive" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="level1_diag1_Genitourina" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="level1_diag1_Injury" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="level1_diag1_Musculoskel" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="level1_diag1_Neoplasms" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="level1_diag1_Others" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+            <Field name="level1_diag1_Respiratory" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\OneHot.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="troglitazone" selected="False" type="Int32" size="4" />
+            <SelectField field="tolbutamide" selected="False" type="Int32" size="4" />
+            <SelectField field="tolazamide" selected="False" type="Int32" size="4" />
+            <SelectField field="time_in_hospital" selected="True" type="Int32" size="4" />
+            <SelectField field="Sum_drug_change" selected="True" type="Int32" size="4" />
+            <SelectField field="service_utlization" selected="True" type="Int32" size="4" />
+            <SelectField field="rosiglitazone" selected="False" type="Int32" size="4" />
+            <SelectField field="repaglinide" selected="False" type="Int32" size="4" />
+            <SelectField field="readmitted" selected="True" />
+            <SelectField field="race_Other" selected="False" type="Int32" size="4" />
+            <SelectField field="race_Hispanic" selected="False" type="Int32" size="4" />
+            <SelectField field="race_Caucasian" selected="False" type="Int32" size="4" />
+            <SelectField field="race_Asian" selected="False" type="Int32" size="4" />
+            <SelectField field="race_AfricanAmerican" selected="False" type="Int32" size="4" />
+            <SelectField field="pioglitazone" selected="False" type="Int32" size="4" />
+            <SelectField field="number_diagnoses" selected="True" type="Int32" size="4" />
+            <SelectField field="num_procedures" selected="True" type="Int32" size="4" />
+            <SelectField field="num_medications" selected="True" type="Int32" size="4" />
+            <SelectField field="num_lab_procedures" selected="True" type="Int32" size="4" />
+            <SelectField field="nateglinide" selected="False" type="Int32" size="4" />
+            <SelectField field="miglitol" selected="False" type="Int32" size="4" />
+            <SelectField field="metformin-rosiglitazone" selected="False" type="Int32" size="4" />
+            <SelectField field="metformin-pioglitazone" selected="False" type="Int32" size="4" />
+            <SelectField field="metformin" selected="False" type="Int32" size="4" />
+            <SelectField field="max_glu_serum_Norm" selected="True" type="Int32" size="4" />
+            <SelectField field="max_glu_serum_None" selected="True" type="Int32" size="4" />
+            <SelectField field="max_glu_serum_&gt;300" selected="True" type="Int32" size="4" />
+            <SelectField field="max_glu_serum_&gt;200" selected="True" type="Int32" size="4" />
+            <SelectField field="level1_diag1_Respiratory" selected="True" type="Int32" size="4" />
+            <SelectField field="level1_diag1_Others" selected="True" type="Int32" size="4" />
+            <SelectField field="level1_diag1_Neoplasms" selected="True" type="Int32" size="4" />
+            <SelectField field="level1_diag1_Musculoskel" selected="True" type="Int32" size="4" />
+            <SelectField field="level1_diag1_Injury" selected="True" type="Int32" size="4" />
+            <SelectField field="level1_diag1_Genitourina" selected="True" type="Int32" size="4" />
+            <SelectField field="level1_diag1_Digestive" selected="True" type="Int32" size="4" />
+            <SelectField field="level1_diag1_Diabetes" selected="True" type="Int32" size="4" />
+            <SelectField field="level1_diag1_Circulatory" selected="True" type="Int32" size="4" />
+            <SelectField field="insulin" selected="False" type="Int32" size="4" />
+            <SelectField field="glyburide-metformin" selected="False" type="Int32" size="4" />
+            <SelectField field="glyburide" selected="False" type="Int32" size="4" />
+            <SelectField field="glipizide-metformin" selected="False" type="Int32" size="4" />
+            <SelectField field="glipizide" selected="False" type="Int32" size="4" />
+            <SelectField field="glimepiride-pioglitazone" selected="False" type="Int32" size="4" />
+            <SelectField field="glimepiride" selected="False" type="Int32" size="4" />
+            <SelectField field="gender" selected="True" type="Int32" size="4" />
+            <SelectField field="examide" selected="False" type="Int32" size="4" />
+            <SelectField field="discharge_disposition_id_Unknown" selected="True" type="Int32" size="4" />
+            <SelectField field="discharge_disposition_id_Other" selected="True" type="Int32" size="4" />
+            <SelectField field="discharge_disposition_id_Nursing Home / Hospice" selected="True" type="Int32" size="4" />
+            <SelectField field="discharge_disposition_id_Home" selected="True" type="Int32" size="4" />
+            <SelectField field="discharge_disposition_id_Another Facility" selected="True" type="Int32" size="4" />
+            <SelectField field="diabetesMed" selected="True" type="Int32" size="4" />
+            <SelectField field="citoglipton" selected="False" type="Int32" size="4" />
+            <SelectField field="chlorpropamide" selected="False" type="Int32" size="4" />
+            <SelectField field="change" selected="True" type="Int32" size="4" />
+            <SelectField field="age_70+" selected="True" type="Int32" size="4" />
+            <SelectField field="age_50-70" selected="True" type="Int32" size="4" />
+            <SelectField field="age_&lt;50" selected="True" type="Int32" size="4" />
+            <SelectField field="admission_type_id_Unknown" selected="True" type="Int32" size="4" />
+            <SelectField field="admission_type_id_Other" selected="True" type="Int32" size="4" />
+            <SelectField field="admission_type_id_Emergency" selected="True" type="Int32" size="4" />
+            <SelectField field="admission_type_id_Elective" selected="True" type="Int32" size="4" />
+            <SelectField field="admission_source_id_Unknown" selected="True" type="Int32" size="4" />
+            <SelectField field="admission_source_id_Transfer" selected="True" type="Int32" size="4" />
+            <SelectField field="admission_source_id_Referral" selected="True" type="Int32" size="4" />
+            <SelectField field="admission_source_id_Other" selected="True" type="Int32" size="4" />
+            <SelectField field="admission_source_id_ER" selected="True" type="Int32" size="4" />
+            <SelectField field="admission_source_id_0" selected="True" type="Int32" size="4" />
+            <SelectField field="acetohexamide" selected="False" type="Int32" size="4" />
+            <SelectField field="acarbose" selected="False" type="Int32" size="4" />
+            <SelectField field="A1Cresult_Pre-diab" selected="True" type="Int32" size="4" />
+            <SelectField field="A1Cresult_Normal" selected="True" type="Int32" size="4" />
+            <SelectField field="A1Cresult_None" selected="True" type="Int32" size="4" />
+            <SelectField field="A1Cresult_Diab" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="282" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Selected_Field">readmitted</Value>
+          <Value name="Oversample_Value">1</Value>
+          <Value name="Desired_Pct">50</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Oversample_Field.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="414" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">80</Value>
+          <Value name="validation pct">20</Value>
+          <Value name="rand seed">1</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="Logistic_Regression">
+        <Position x="510" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Logistic_Regression_5</Value>
+          <Value name="Y Var">readmitted</Value>
+          <Value name="X Vars">time_in_hospital,Sum_drug_change,service_utlization,number_diagnoses,num_procedures,num_medications,num_lab_procedures,gender,diabetesMed,change</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="standardize_pred">False</Value>
+          <Value name="internal_cv">False</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="set_seed_internal_cv">False</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="posClass">
+          </Value>
+          <Value name="Link">logit</Value>
+          <Value name="external_cv">True</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="stratified">False</Value>
+          <Value name="set_seed_external_cv">False</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Logistic_Regression_5</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="Decision_Tree">
+        <Position x="558" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">model</Value>
+          <Value name="curToggle">toggle-main</Value>
+          <Value name="display.static">True</Value>
+          <Value name="set_seed_cv">True</Value>
+          <Value name="showClassificationCV">True</Value>
+          <Value name="showWhenTreePlotAvailable">True</Value>
+          <Value name="showWhenAlgorithmAvailable">True</Value>
+          <Value name="use.gini">True</Value>
+          <Value name="use.information">False</Value>
+          <Value name="usesurrogate.0">True</Value>
+          <Value name="usesurrogate.1">False</Value>
+          <Value name="usesurrogate.2">False</Value>
+          <Value name="total.correct">True</Value>
+          <Value name="percent.correct">False</Value>
+          <Value name="model_type">auto</Value>
+          <Value name="auto">True</Value>
+          <Value name="classification">False</Value>
+          <Value name="regression">False</Value>
+          <Value name="tree_summary">Counts</Value>
+          <Value name="Counts">True</Value>
+          <Value name="Proportions">False</Value>
+          <Value name="tree_plot_size">tree.inches</Value>
+          <Value name="tree.inches">True</Value>
+          <Value name="tree.centimeters">False</Value>
+          <Value name="pruning_plot_size">prune.inches</Value>
+          <Value name="prune.inches">True</Value>
+          <Value name="prune.centimeters">False</Value>
+          <Value name="Model Name">Decision_Tree_6</Value>
+          <Value name="Y Var">readmitted</Value>
+          <Value name="X Vars">time_in_hospital,Sum_drug_change,service_utlization,number_diagnoses,num_procedures,num_medications,num_lab_procedures,gender,diabetesMed,change</Value>
+          <Value name="model.algorithm">rpart</Value>
+          <Value name="posClass">
+          </Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights" />
+          <Value name="splitting_criteria">use.gini</Value>
+          <Value name="surrogate_use">usesurrogate.0</Value>
+          <Value name="surrogate_split_criteria">total.correct</Value>
+          <Value name="min.split">20</Value>
+          <Value name="min.bucket">7</Value>
+          <Value name="xval.folds">10</Value>
+          <Value name="max.depth">20</Value>
+          <Value name="max.bins">
+          </Value>
+          <Value name="set_cp">False</Value>
+          <Value name="cp">0</Value>
+          <Value name="rules">False</Value>
+          <Value name="bands_check">False</Value>
+          <Value name="bands">10</Value>
+          <Value name="subset">False</Value>
+          <Value name="winnow">False</Value>
+          <Value name="GlobalPruning">False</Value>
+          <Value name="fuzzyThreshold">False</Value>
+          <Value name="earlyStopping">False</Value>
+          <Value name="trials">1</Value>
+          <Value name="CF">0.25</Value>
+          <Value name="minCases">2</Value>
+          <Value name="sample">0</Value>
+          <Value name="seed">1</Value>
+          <Value name="use_cv">False</Value>
+          <Value name="numberFolds">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="stratified">False</Value>
+          <Value name="cv_seed">1</Value>
+          <Value name="tree.plot">False</Value>
+          <Value name="Branch Dist">False</Value>
+          <Value name="tree.in.w">5.5</Value>
+          <Value name="tree.in.h">5.5</Value>
+          <Value name="tree.cm.w">13</Value>
+          <Value name="tree.cm.h">14.95</Value>
+          <Value name="tree.graph.resolution">1x</Value>
+          <Value name="tree.pointsize">8</Value>
+          <Value name="prune.plot">False</Value>
+          <Value name="prune.in.w">5.5</Value>
+          <Value name="prune.in.h">5.5</Value>
+          <Value name="prune.cm.w">13</Value>
+          <Value name="prune.cm.h">14.95</Value>
+          <Value name="prune.graph.resolution">1x</Value>
+          <Value name="prune.pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Decision_Tree_6</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" EngineDll="Macro" EngineDllEntryPoint="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="558" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Model Name" />
+          <Value name="Y Var">readmitted</Value>
+          <Value name="X Vars">time_in_hospital + Sum_drug_change + service_utlization + number_diagnoses + num_procedures + num_medications + num_lab_procedures + gender + diabetesMed + change</Value>
+          <Value name="Num Trees">480</Value>
+          <Value name="Custom Num Vars">True</Value>
+          <Value name="Num Vars">3</Value>
+          <Value name="model.size">False</Value>
+          <Value name="total.nodes">100</Value>
+          <Value name="max.depth">10</Value>
+          <Value name="node.size">5</Value>
+          <Value name="replace">True</Value>
+          <Value name="samp.rate">100</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Forest_Model.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="666" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRUTHV~1\AppData\Local\Temp\Engine_11160_5ac6d1f3f2a54b488439224e64baad83_\Engine_11160_95ea28312dc6314881e80517f1681026~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="666" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="666" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PRUTHV~1\AppData\Local\Temp\Engine_11160_5ac6d1f3f2a54b488439224e64baad83_\Engine_11160_9ba0de1fae05e845af4cfa99034ea144~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Estimation" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Estimation" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Estimation" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Reports" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Interactive Report" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Modelling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="944fa663-eaed-48c8-b298-bc4e3e24572c" />
+      <Telemetry>
+        <PreviousWorkflowId value="d93224c1-6d13-4cf8-819a-3dc5e1374381" />
+        <OriginWorkflowId value="d93224c1-6d13-4cf8-819a-3dc5e1374381" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,1106 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="678" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output16</Name>
+          <Abbrev>O</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>O Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="True" type="V_WString" size="6" />
+            <SelectField field="gender" selected="True" type="Int32" size="4" />
+            <SelectField field="time_in_hospital" selected="True" type="Int32" size="4" />
+            <SelectField field="num_lab_procedures" selected="True" type="Int32" size="4" />
+            <SelectField field="num_procedures" selected="True" type="Int32" size="4" />
+            <SelectField field="num_medications" selected="True" type="Int32" size="4" />
+            <SelectField field="number_diagnoses" selected="True" type="Int32" size="4" />
+            <SelectField field="metformin" selected="True" type="Int32" size="4" />
+            <SelectField field="repaglinide" selected="True" type="Int32" size="4" />
+            <SelectField field="nateglinide" selected="True" type="Int32" size="4" />
+            <SelectField field="chlorpropamide" selected="True" type="Int32" size="4" />
+            <SelectField field="glimepiride" selected="True" type="Int32" size="4" />
+            <SelectField field="acetohexamide" selected="True" type="Int32" size="4" />
+            <SelectField field="glipizide" selected="True" type="Int32" size="4" />
+            <SelectField field="glyburide" selected="True" type="Int32" size="4" />
+            <SelectField field="tolbutamide" selected="True" type="Int32" size="4" />
+            <SelectField field="pioglitazone" selected="True" type="Int32" size="4" />
+            <SelectField field="rosiglitazone" selected="True" type="Int32" size="4" />
+            <SelectField field="acarbose" selected="True" type="Int32" size="4" />
+            <SelectField field="miglitol" selected="True" type="Int32" size="4" />
+            <SelectField field="troglitazone" selected="True" type="Int32" size="4" />
+            <SelectField field="tolazamide" selected="True" type="Int32" size="4" />
+            <SelectField field="examide" selected="True" type="Int32" size="4" />
+            <SelectField field="citoglipton" selected="True" type="Int32" size="4" />
+            <SelectField field="insulin" selected="True" type="Int32" size="4" />
+            <SelectField field="glyburide-metformin" selected="True" type="Int32" size="4" />
+            <SelectField field="glipizide-metformin" selected="True" type="Int32" size="4" />
+            <SelectField field="glimepiride-pioglitazone" selected="True" type="Int32" size="4" />
+            <SelectField field="metformin-rosiglitazone" selected="True" type="Int32" size="4" />
+            <SelectField field="metformin-pioglitazone" selected="True" type="Int32" size="4" />
+            <SelectField field="change" selected="True" type="Int32" size="4" />
+            <SelectField field="diabetesMed" selected="True" type="Int32" size="4" />
+            <SelectField field="readmitted" selected="True" type="Int32" size="4" />
+            <SelectField field="service_utlization" selected="True" type="Int32" size="4" />
+            <SelectField field="Sum_drug_change" selected="True" type="Int32" size="4" />
+            <SelectField field="CustomerID" selected="False" />
+            <SelectField field="Store Number" selected="False" />
+            <SelectField field="Customer Segment" selected="False" />
+            <SelectField field="Responder" selected="False" />
+            <SelectField field="First Name" selected="False" />
+            <SelectField field="Last Name" selected="False" />
+            <SelectField field="Address" selected="False" />
+            <SelectField field="State" selected="False" />
+            <SelectField field="Zip" selected="False" />
+            <SelectField field="Lat" selected="False" />
+            <SelectField field="Lon" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" size="6" source="RecordID: Starting Value=1" type="V_WString" />
+            <Field name="race" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="gender" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="age" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="admission_type_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="discharge_disposition_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="admission_source_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="time_in_hospital" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="num_lab_procedures" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="num_procedures" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="num_medications" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="number_diagnoses" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="max_glu_serum" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="A1Cresult" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="metformin" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="repaglinide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="nateglinide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="chlorpropamide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="glimepiride" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="acetohexamide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="glipizide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="glyburide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="tolbutamide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="pioglitazone" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="rosiglitazone" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="acarbose" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="miglitol" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="troglitazone" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="tolazamide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="examide" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="citoglipton" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="insulin" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="glyburide-metformin" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="glipizide-metformin" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="glimepiride-pioglitazone" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="metformin-rosiglitazone" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="metformin-pioglitazone" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="change" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="diabetesMed" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="readmitted" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="service_utlization" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="Sum_drug_change" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="Int32" />
+            <Field name="level1_diag1" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="630" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.ListBox">
+        <Position x="306" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>List Box (34)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="True" />
+          <Name>Input55</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <FileInput>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">\\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+          </FileInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Prep2.csv</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="race" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="gender" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="age" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="admission_type_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="discharge_disposition_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="admission_source_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="time_in_hospital" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="num_lab_procedures" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="num_procedures" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="num_medications" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="number_diagnoses" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="max_glu_serum" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="A1Cresult" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="metformin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="repaglinide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="nateglinide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="chlorpropamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glimepiride" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="acetohexamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glipizide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glyburide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="tolbutamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="pioglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="rosiglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="acarbose" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="miglitol" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="troglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="tolazamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="examide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="citoglipton" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="insulin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glyburide-metformin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glipizide-metformin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glimepiride-pioglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="metformin-rosiglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="metformin-pioglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="change" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="diabetesMed" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="readmitted" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="service_utlization" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="Sum_drug_change" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="level1_diag1" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="462" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Order
+of Columns</AnnotationText>
+          <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="162" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType size="6">String</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" size="6" source="RecordID: Starting Value=1" type="String" />
+            <Field name="race" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="gender" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="age" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="admission_type_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="discharge_disposition_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="admission_source_id" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="time_in_hospital" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="num_lab_procedures" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="num_procedures" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="num_medications" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="number_diagnoses" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="max_glu_serum" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="A1Cresult" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="metformin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="repaglinide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="nateglinide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="chlorpropamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glimepiride" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="acetohexamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glipizide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glyburide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="tolbutamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="pioglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="rosiglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="acarbose" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="miglitol" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="troglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="tolazamide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="examide" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="citoglipton" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="insulin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glyburide-metformin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glipizide-metformin" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="glimepiride-pioglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="metformin-rosiglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="metformin-pioglitazone" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="change" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="diabetesMed" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="readmitted" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="service_utlization" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="Sum_drug_change" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+            <Field name="level1_diag1" size="254" source="File: \\Mac\Home\Desktop\UIC\Sem 2\IDS 594\Assignment 3\Prep2.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="85">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
+        <Position x="126" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!Contains([#1],"True")
+At least one field must be selected</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="86">
+      <GuiSettings Plugin="JupyterCode">
+        <Position x="378" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <WorkflowName>\\mac\home\desktop\uic\sem 2\ids 594\assignment 3\[unnamed module]</WorkflowName>
+          <JupyterProduction>false</JupyterProduction>
+          <vEnvName>designerbasetools_venv</vEnvName>
+          <DefaultVenv>1</DefaultVenv>
+          <productionModeScript />
+          <Port>63622</Port>
+          <JupyterGuidDir>e160957ad382215af7454be7de13d973</JupyterGuidDir>
+          <JupyterGuidCopy />
+          <LastExecutedByEngineVersion>*</LastExecutedByEngineVersion>
+          <Notebook><![CDATA[{"cells":[{"cell_type":"markdown","metadata":{"ayx":{"cell_class":"text_cell","cell_css":"border: 3px solid #357; margin: 4px; background: #fbffff","cell_type":"markdown","contents_keyword":"Alteryx.help()","first_line":"Run `Alteryx.help()` for info about useful functions.","label":"info"}},"source":["Run `Alteryx.help()` for info about useful functions.  \n","i.e., `Alteryx.read(\"#1\")`, `Alteryx.write(df,1)`, `Alteryx.getWorkflowConstant(\"Engine.WorkflowDirectory\")`"]},{"cell_type":"code","execution_count":null,"metadata":{"ayx":{"cell_class":"code_cell","cell_css":"border: 1px solid #58a; margin: 2px;","cell_type":"code","contents_keyword":"installPackages","first_line":"# List all non-standard packages to be imported by your","label":"deps"}},"outputs":[],"source":["# List all non-standard packages to be imported by your \n","# script here (only missing packages will be installed)\n","from ayx import Package\n","#Package.installPackages(['pandas','numpy'])"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["from ayx import Alteryx\n","\n"]}],"metadata":{"kernelspec":{"display_name":"designerbasetools_venv","language":"python","name":"designerbasetools_venv"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.8.5"}},"nbformat":4,"nbformat_minor":2}]]></Notebook>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxJupyterPluginEngine.dll" EngineDllEntryPoint="AlteryxJupyter" />
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="392" y="464" width="619" height="119" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Order of Columns</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="474" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Text</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>
+              </RootName>
+              <Delimeters value="," />
+              <NumFields value="100" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Text" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="Test" size="2147483647" source="TextInput:" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="1" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="2" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="3" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="4" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="5" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="6" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="7" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="8" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="9" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="10" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="11" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="12" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="13" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="14" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="15" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="16" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="17" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="18" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="19" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="20" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="21" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="22" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="23" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="24" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="25" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="26" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="27" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="28" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="29" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="30" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="31" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="32" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="33" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="34" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="35" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="36" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="37" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="38" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="39" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="40" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="41" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="42" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="43" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="44" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="45" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="46" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="47" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="48" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="49" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="50" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="51" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="52" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="53" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="54" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="55" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="56" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="57" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="58" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="59" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="60" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="61" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="62" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="63" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="64" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="65" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="66" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="67" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="68" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="69" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="70" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="71" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="72" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="73" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="74" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="75" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="76" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="77" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="78" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="79" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="80" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="81" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="82" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="83" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="84" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="85" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="86" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="87" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="88" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="89" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="90" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="91" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="92" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="93" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="94" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="95" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="96" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="97" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="98" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="99" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="100" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="858" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>Formula</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="sdfasdaf" />
+                <Field name="CustomerID=False" />
+                <Field name="Customer Segment=False" />
+                <Field name="Responder=False" />
+                <Field name="First Name=False" />
+                <Field name="Last Name=False" />
+                <Field name="Address=False" />
+                <Field name="City=False" />
+                <Field name="State=False" />
+                <Field name="Zip=False" />
+                <Field name="Lat=False" />
+                <Field name="Lon=False" />
+                <Field name="*Unknown" />
+                <Field name="Test" selected="False" />
+              </Fields>
+              <Expression>replace([_CurrentField_],"=False","")</Expression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="xxx" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="Test" size="2147483647" source="TextInput:" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="xxx2" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+        <Node ToolID="74">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+            <Position x="666" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Formula</Mode>
+              <Expression>!Contains([Name],"=True") and
+!Contains([Name],"Field_")</Expression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="xxx" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="Test" size="2147483647" source="TextInput:" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="xxx2" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+        </Node>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="570" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>FirstRow</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="Text" />
+                <Field name="1" />
+                <Field name="2" />
+                <Field name="3" />
+                <Field name="4" />
+                <Field name="5" />
+                <Field name="6" />
+                <Field name="7" />
+                <Field name="8" />
+                <Field name="9" />
+                <Field name="10" />
+                <Field name="11" />
+                <Field name="12" />
+                <Field name="13" />
+                <Field name="14" />
+                <Field name="15" />
+                <Field name="16" />
+                <Field name="17" />
+                <Field name="18" />
+                <Field name="19" />
+                <Field name="20" />
+                <Field name="21" />
+                <Field name="22" />
+                <Field name="23" />
+                <Field name="24" />
+                <Field name="25" />
+                <Field name="26" />
+                <Field name="27" />
+                <Field name="28" />
+                <Field name="29" />
+                <Field name="30" />
+                <Field name="31" />
+                <Field name="32" />
+                <Field name="33" />
+                <Field name="34" />
+                <Field name="35" />
+                <Field name="36" />
+                <Field name="37" />
+                <Field name="38" />
+                <Field name="39" />
+                <Field name="40" />
+                <Field name="41" />
+                <Field name="42" />
+                <Field name="43" />
+                <Field name="44" />
+                <Field name="45" />
+                <Field name="46" />
+                <Field name="47" />
+                <Field name="48" />
+                <Field name="49" />
+                <Field name="50" />
+                <Field name="51" />
+                <Field name="52" />
+                <Field name="53" />
+                <Field name="54" />
+                <Field name="55" />
+                <Field name="56" />
+                <Field name="57" />
+                <Field name="58" />
+                <Field name="59" />
+                <Field name="60" />
+                <Field name="61" />
+                <Field name="62" />
+                <Field name="63" />
+                <Field name="64" />
+                <Field name="65" />
+                <Field name="66" />
+                <Field name="67" />
+                <Field name="68" />
+                <Field name="69" />
+                <Field name="70" />
+                <Field name="71" />
+                <Field name="72" />
+                <Field name="73" />
+                <Field name="74" />
+                <Field name="75" />
+                <Field name="76" />
+                <Field name="77" />
+                <Field name="78" />
+                <Field name="79" />
+                <Field name="80" />
+                <Field name="81" />
+                <Field name="82" />
+                <Field name="83" />
+                <Field name="84" />
+                <Field name="85" />
+                <Field name="86" />
+                <Field name="87" />
+                <Field name="88" />
+                <Field name="89" />
+                <Field name="90" />
+                <Field name="91" />
+                <Field name="92" />
+                <Field name="93" />
+                <Field name="94" />
+                <Field name="95" />
+                <Field name="96" />
+                <Field name="97" />
+                <Field name="98" />
+                <Field name="99" />
+                <Field name="100" />
+                <Field name="*Unknown" />
+                <Field name="Test" selected="False" />
+              </Fields>
+              <Expression />
+              <FirstRow>
+                <OnError>Warn</OnError>
+              </FirstRow>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="xxx" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="Test" size="2147483647" source="TextInput:" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="xxx2" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_4" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_5" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_6" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_7" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_8" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_9" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_10" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_11" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_12" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_13" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_14" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_15" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_16" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_17" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_18" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_19" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_20" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_21" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_22" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_23" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_24" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_25" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_26" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_27" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_28" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_29" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_30" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_31" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_32" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_33" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_34" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_35" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_36" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_37" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_38" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_39" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_40" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_41" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_42" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_43" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_44" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_45" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_46" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_47" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_48" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_49" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_50" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_51" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_52" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_53" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_54" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_55" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_56" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_57" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_58" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_59" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_60" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_61" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_62" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_63" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_64" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_65" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_66" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_67" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_68" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_69" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_70" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_71" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_72" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_73" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_74" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_75" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_76" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_77" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_78" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_79" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_80" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_81" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_82" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_83" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_84" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_85" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_86" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_87" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_88" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_89" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_90" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_91" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_92" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_93" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_94" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_95" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_96" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_97" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_98" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_99" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_100" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_101" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="Field_102" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="762" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="xxx" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="Test" size="2147483647" source="TextInput:" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="xxx2" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="942" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>0</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>First 0</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="xxx" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="Test" size="2147483647" source="TextInput:" type="V_String" />
+                <Field description="TextToColumns: Parsed from Text" name="xxx2" size="2147483647" source="TextToColumns: Parsed from Text" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="402" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="Text" />
+                <Field name="Test" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>xxx</c>
+                  <c>sdfasdaf</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Text" size="2147483647" source="TextInput:" type="V_String" />
+                <Field name="Test" size="2147483647" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="36" Connection="Action" />
+      <Destination ToolID="29" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="34" Connection="Question" />
+      <Destination ToolID="36" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="34" Connection="Question" />
+      <Destination ToolID="58" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="34" Connection="Question" />
+      <Destination ToolID="85" Connection="Question" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="55" Connection="Question" />
+      <Destination ToolID="34" Connection="Question Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="58" Connection="Action" />
+      <Destination ToolID="59" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="75" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="69" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>List Box (34)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name>One-Hot Encoder</Name>
+      <Description>Process categorical variables into a binary grid for use in predictive models.</Description>
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName>Bulien Tools</CategoryName>
+      <SearchTags>Categorical, Variable, Predictive, Binary</SearchTags>
+      <Author>Chris McEleavey (@mceleavey), @TheOC</Author>
+      <Company>Bulien</Company>
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="8a1dd59f-23b2-4242-bc32-757eed2e2baf" />
+      <Telemetry>
+        <PreviousWorkflowId value="c1080687-ff1a-4e95-b9d8-3f3c4c811cd2" />
+        <OriginWorkflowId value="aac719da-95f0-48cc-91e7-b319d2f19b57" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateSelect</Type>
+              <Description />
+              <ToolId value="36" />
+              <Variable />
+              <SelectTool value="-1" />
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="58" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>xxx</ReplaceText>
+              <Destination>59/Data/r/c[1]</Destination>
+            </Action>
+            <Action>
+              <Type>Error</Type>
+              <Description>At least one field must be selected</Description>
+              <ToolId value="85" />
+              <Expression>!Contains([#1],"True")</Expression>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (14)</Name>
+          <ToolId value="14" />
+          <Questions>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (16)</Description>
+              <Name>Macro Output (16)</Name>
+              <ToolId value="16" />
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Select Fields to Encode</Description>
+              <Name>List Box (34)</Name>
+              <ToolId value="34" />
+              <Multiple value="True" />
+              <Multiple_Custom value="False" />
+              <Multiple_Default value="False" />
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="55" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>String,WString,V_String,V_WString</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description />
+              <Name>Macro Input (55)</Name>
+              <ToolId value="55" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="16" Selected="True" />
+        <Tool ToolId="55" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
